@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наше CASINO</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <div id="app">
+        <div id="start">
+            <img src="image/background.jpeg" alt="starpicture" class="center-img">
+            <button id="startbutton">Испытать удачу</button>
+        </div>
+        <div id="game" style="display: none;">
+            <div id="sound">
+                <img src="image/notmusic.svg">
+                <audio src="audio/1.mp3"></audio>
+            </div>
+            <div id="score">
+                <p>Выиграш: &#128176; <span>0</span></p>
+            </div>
+
+            <div id="image777"></div>
+            <button id="knopka">Крутить</button>
+            <!-- <img src="image/777.jpeg" alt="Baraban" class="game-img"> -->
+            <div id="cartochki">
+                <div id='xxx1' class='XXX1' style="display: none;">
+                    <div id='ab' class='X'><img src="image/1.png"></div> <!-- а вот тут - 5 картинок -->
+                    <div id='bc' class='X'><img src="image/2.png"></div>
+                    <div id='cd' class='X'><img src="image/3.png"></div>
+                    <div id='de' class='X'><img src="image/4.png"></div>
+                    <div id='ef' class='X'><img src="image/5.png"></div>
+                    <!-- <div class='X'>6</div>
+                <div class='X'>7</div> -->
+                    <!-- <div class='X'>8</div>
+                <div class='X'>9</div>
+                <div class='X'>10</div> -->
+                    <div id='ab' class='X'><img src="image/1.png"></div>
+                </div>
+                <div id='xxx2' class='XXX2' style="display: none;">
+                    <div id='ab' class='X'><img src="image/1.png"></div> <!-- а вот тут - 5 картинок -->
+                    <div id='bc' class='X'><img src="image/2.png"></div>
+                    <div id='cd' class='X'><img src="image/3.png"></div>
+                    <div id='de' class='X'><img src="image/4.png"></div>
+                    <div id='ef' class='X'><img src="image/5.png"></div>
+                    <!-- <div class='X'>D</div> -->
+                    <!-- <div class='X'>7</div>
+                <div class='X'>8</div>
+                <div class='X'>9</div>
+                <div class='X'>10</div> -->
+                    <div id='ab' class='X'><img src="image/1.png"></div>
+                </div>
+                <div id='xxx3' class='XXX3' style="display: none;">
+                    <div id='ab' class='X'><img src="image/1.png"></div> <!-- а вот тут - 5 картинок -->
+                    <div id='bc' class='X'><img src="image/2.png"></div>
+                    <div id='cd' class='X'><img src="image/3.png"></div>
+                    <div id='de' class='X'><img src="image/4.png"></div>
+                    <div id='ef' class='X'><img src="image/5.png"></div>
+                    <!-- <div class='X'>6</div> -->
+                    <!-- <div class='X'>7</div>
+                <div class='X'>8</div>
+                <div class='X'>9</div>
+                <div class='X'>10</div> -->
+                    <div id='ab' class='X'><img src="image/1.png"></div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div id="end" style="display: none;">
+            <h2>ВЫ ПРОИГРАЛИ</h2> <br>
+            <h3>играть с казино плохая идея: <br> казино ВСЕГДА выигрывает</h3>
+            <button id="endButton">Играть снова</button>
+            <script src="script.js"></script>
+        </div>
+    </div>
+
+</body>
+
+</html>
